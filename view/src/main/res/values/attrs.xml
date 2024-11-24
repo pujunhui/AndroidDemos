@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextView">
+        <attr name="text" format="string|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textSize" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="QQStepView">
+        <attr name="outerColor" format="color" />
+        <attr name="innerColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="stepTextSize" format="dimension" />
+        <attr name="stepTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="originColor" format="color" />
+        <attr name="changeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="innerBackground" format="color" />
+        <attr name="outerBackground" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="progressTextSize" format="dimension" />
+        <attr name="progressTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <attr name="startNormal" format="reference" />
+        <attr name="startFocus" format="reference" />
+        <attr name="gradeNumber" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LetterSideBar">
+        <attr name="barTextSize" format="dimension" />
+        <attr name="barTextColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomLayout_Layout">
+        <attr name="layout_position">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="rightAndBottom" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MenuButton">
+        <attr name="arrowStrokeWidth" format="dimension" />
+        <attr name="arrowColor" format="color" />
+        <attr name="arrowCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="menuRightMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CompassView">
+        <attr name="bearing" format="reference|float" />
+    </declare-styleable>
+</resources>
