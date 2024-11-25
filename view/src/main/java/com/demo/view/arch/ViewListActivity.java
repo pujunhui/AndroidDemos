@@ -17,12 +17,19 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.demo.animator.PathInterpolatorTest;
 import com.demo.view.R;
+import com.demo.view.drawable.test.GalleryHorizontalScrollViewTest;
+import com.demo.view.drawable.test.WaveBitmapDrawableTest;
+import com.demo.view.filter.test.FilterViewTest;
+import com.demo.view.layout.test.CustomLayoutTest;
+import com.demo.view.layout.test.FlowLayoutTest;
 import com.demo.view.test.ColorTrackTextViewTest;
-import com.demo.view.test.FlowLayoutTest;
 import com.demo.view.test.LetterSideBarTest;
 import com.demo.view.test.PageTransformerTest;
-import com.demo.view.test.WaveBitmapDrawableTest;
+import com.demo.view.xfermode.test.CircleImageViewTest;
+import com.demo.view.xfermode.test.ScratchCardTest;
+import com.demo.view.xfermode.test.XfermodeViewTest;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -34,9 +41,16 @@ public class ViewListActivity extends AppCompatActivity {
     private final List<ViewCaseInfo> testCases = getViewCaseInfos(
             FlowLayoutTest.class,
             ColorTrackTextViewTest.class,
+            GalleryHorizontalScrollViewTest.class,
             LetterSideBarTest.class,
             WaveBitmapDrawableTest.class,
-            PageTransformerTest.class
+            PageTransformerTest.class,
+            CircleImageViewTest.class,
+            XfermodeViewTest.class,
+            ScratchCardTest.class,
+            FilterViewTest.class,
+            PathInterpolatorTest.class,
+            CustomLayoutTest.class
     );
 
     @Override

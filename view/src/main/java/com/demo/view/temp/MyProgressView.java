@@ -8,8 +8,6 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.demo.view.R;
-
 public class MyProgressView extends View {
     private Paint mCircleOutPaint;
     private Paint mCircleInPaint;

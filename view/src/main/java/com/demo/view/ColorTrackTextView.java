@@ -13,7 +13,7 @@ import androidx.appcompat.widget.AppCompatTextView;
 /**
  * Time:2019/3/13
  * Author:蒲俊辉
- * Description:文字变色
+ * Description:变色文字
  */
 public class ColorTrackTextView extends AppCompatTextView {
     //绘制不变颜色字体的画笔
@@ -25,7 +25,7 @@ public class ColorTrackTextView extends AppCompatTextView {
     //不同朝向
     private Direction mDirection;
 
-    //朝向的枚举类型
+    //变色方向的枚举类型
     public enum Direction {
         RIGHT_TO_LEFT, LEFT_TO_RIGHT
     }

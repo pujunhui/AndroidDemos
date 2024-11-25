@@ -10,8 +10,6 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.demo.view.R;
-
 /**
  * Time:2019/3/13
  * Author:蒲俊辉
