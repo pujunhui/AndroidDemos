@@ -34,14 +34,11 @@ public class LinearGradientTextView extends AppCompatTextView {
 
     public LinearGradientTextView(Context context) {
         super(context);
-        Log.i("barry", "LinearGradientTextView1....");
     }
 
     public LinearGradientTextView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        Log.i("barry", "LinearGradientTextView2....");
     }
-
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {

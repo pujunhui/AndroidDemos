@@ -9,7 +9,7 @@ public class PathInterpolatorTest {
 
     @ViewCase(label = "PathInterpolator", description = "PathInterpolator测试")
     public static void tesPathInterpolator(Context context, ViewGroup parent) {
-        DrawTrackView view = new DrawTrackView(context);
+        TouchTrackView view = new TouchTrackView(context);
         parent.addView(view);
     }
 }

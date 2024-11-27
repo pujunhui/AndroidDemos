@@ -19,11 +19,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.demo.animator.PathInterpolatorTest;
 import com.demo.view.R;
+import com.demo.view.bezier.test.BezierViewTest;
 import com.demo.view.drawable.test.GalleryHorizontalScrollViewTest;
 import com.demo.view.drawable.test.WaveBitmapDrawableTest;
-import com.demo.view.filter.test.FilterViewTest;
+import com.demo.view.filter.test.FilterTest;
 import com.demo.view.layout.test.CustomLayoutTest;
 import com.demo.view.layout.test.FlowLayoutTest;
+import com.demo.view.path.test.PathTest;
 import com.demo.view.test.ColorTrackTextViewTest;
 import com.demo.view.test.LetterSideBarTest;
 import com.demo.view.test.PageTransformerTest;
@@ -48,9 +50,11 @@ public class ViewListActivity extends AppCompatActivity {
             CircleImageViewTest.class,
             XfermodeViewTest.class,
             ScratchCardTest.class,
-            FilterViewTest.class,
+            FilterTest.class,
             PathInterpolatorTest.class,
-            CustomLayoutTest.class
+            CustomLayoutTest.class,
+            BezierViewTest.class,
+            PathTest.class
     );
 
     @Override

@@ -38,7 +38,6 @@
         <attr name="barTextColor" format="color" />
     </declare-styleable>
 
-
     <declare-styleable name="CustomLayout_Layout">
         <attr name="layout_position">
             <enum name="left_top" value="0" />
@@ -66,4 +65,13 @@
     <declare-styleable name="CompassView">
         <attr name="bearing" format="reference|float" />
     </declare-styleable>
+
+    <declare-styleable name="DragBubbleView">
+        <attr name="bubble_radius" format="dimension"/>
+        <attr name="bubble_color" format="color"/>
+        <attr name="bubble_text" format="string"/>
+        <attr name="bubble_textSize" format="dimension"/>
+        <attr name="bubble_textColor" format="color"/>
+    </declare-styleable>
+
 </resources>

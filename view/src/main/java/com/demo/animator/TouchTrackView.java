@@ -13,7 +13,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class DrawTrackView extends View {
+public class TouchTrackView extends View {
     private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Path path = new Path();
     private float lastX = -1;
@@ -22,15 +22,15 @@ public class DrawTrackView extends View {
     private float trackX = -1;
     private float trackY = -1;
 
-    public DrawTrackView(Context context) {
+    public TouchTrackView(Context context) {
         this(context, null);
     }
 
-    public DrawTrackView(Context context, @Nullable AttributeSet attrs) {
+    public TouchTrackView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public DrawTrackView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public TouchTrackView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.STROKE);
